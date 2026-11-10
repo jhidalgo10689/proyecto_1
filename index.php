@@ -1,34 +1,6 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>barbershopmostacho</title>
-  <link rel="stylesheet" href="./css/estilos.css" />
-</head>
-<body>
-  <header class="header">
-    <a href="index.html" class="logo">Mi sitio</a>
-    <button class="hamburguesa" id="btnMenu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <nav class="menu">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+<?php include "header.php";?>
   <main>
-    <section class="portada contenedor">
-      <h1>Barbería El Mostacho</h1>
-      <p>Precisión, Estilo y Actitud</p>
-      <a href="contacto.html" class="boton">Reservar</a>
-    </section>
+<?php include "portada.php";?>
     <section class="servicio contenedor">
       <h2>Servicios</h2>
       <div class="cards">
@@ -56,9 +28,9 @@
       <h2>Preguntas frecuentes</h2>
       <div class="accordion">
         <div class="item">
-          <button class="titulo">¿Pregunta uno?</button>
+          <button class="titulo">¿Horario?</button>
           <div class="contenido">
-            <p>Respuesta uno.</p>
+            <p>De lunes a Domingo de 11:00am a 8:30pm</p>
           </div>
           <div class="item">
             <button class="titulo">¿Pregunta uno?</button>
@@ -81,23 +53,4 @@
       <img src="./img/img-3.webp" alt="Auto encerado" />
     </section>-->
   </main>
-  <footer class="footer">
-    <div>
-      <p>
-        <strong>Mi sitio</strong>
-      </p>
-      <p>Teléfono: 9999-9999 - Correo: info@barbershopmostacho.com</p>
-    </div>
-    <ul class="redes">
-      <li>
-        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-      </li>
-    </ul>
-    <p>&copy; 2026 Barbería El Mostacho</p>
-  </footer>
-  <script src="./js/main.js"></script>
-</body>
-</html>
+<?php include "footer.php";?>
