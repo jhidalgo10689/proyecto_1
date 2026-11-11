@@ -1,6 +1,8 @@
 <?php include "header.php";?>
+<section class="contenedor">
     <main>
-      <?php include "portada.php";?>
-      <h1>Nosotros</h1>
+        <?php include "portada.php";?>
+        <h1>Nosotros</h1>
     </main>
-  <?php include "footer.php";?>
+</section>
+<?php include "footer.php";?>

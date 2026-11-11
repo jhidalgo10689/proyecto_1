@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>barbershopmostacho</title>
-  <link rel="stylesheet" href="./css/estilos.css" />
+  <link rel="stylesheet" href="./css/estilos.css?v=<?= filemtime(__DIR__ . '/css/estilos.css') ?>" />
 </head>
 <body>
   <header class="header">

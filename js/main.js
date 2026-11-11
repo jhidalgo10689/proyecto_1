@@ -32,9 +32,9 @@ titulos.forEach((titulo) => {
 });
 
 const servicios = [
-  { titulo: "Corte Caballero", precio: 8000, img: "./img/img-1.jpg" },
-  { titulo: "Barba", precio: 15000, img: "./img/img-2.jpg" },
-  { titulo: "Corte Infantil", precio: 12000, img: "./img/img-3.jpg" },
+  { titulo: "Corte Caballero", precio: 8000, img: "./img/imagen-1.jpg" },
+  { titulo: "Barba", precio: 5000, img: "./img/imagen-2.jpg" },
+  { titulo: "Corte Infantil", precio: 5500, img: "./img/imagen-3.jpg" },
 ];
 
 const contenedor = document.querySelector("#cards");
